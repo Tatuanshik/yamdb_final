@@ -1,1 +1,1 @@
-[![Yamdb Workflow Status] (https://github.com/Tatuanshik/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=main)](https://github.com/Tatuanshik/yamdb_final/actions/workflows/yamdb_workflow.yml)
+[![Yamdb Workflow Status](https://github.com/Tatuanshik/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=main)](https://github.com/Tatuanshik/yamdb_final/actions/workflows/yamdb_workflow.yml)
