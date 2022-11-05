@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   db:
+    restart: always
     image: postgres:13.0-alpine
     volumes:
       - /var/lib/postgresql/data/
@@ -9,7 +10,7 @@ services:
       - ./.env
       
   web:
-    image: tanyshka/infra_actions
+    image: tanyshka/infra_actions:latest
     volumes:
       - static_value:/app/static/
       - media_value:/app/media/
