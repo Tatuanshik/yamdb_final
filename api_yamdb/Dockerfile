@@ -6,7 +6,7 @@ RUN apt-get update \
     && apt-get -y install libpq-dev gcc \
     && pip install psycopg2
 
-COPY requirements.txt .
+COPY /requirements.txt .
 
 RUN pip3 install -r api_yamdb/requirements.txt --no-cache-dir
 
