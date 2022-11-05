@@ -8,7 +8,7 @@ RUN apt-get update \
 
 COPY api_yamdb/requirements.txt .
 
-RUN pip3 install -r api_yamdb/requirements.txt --no-cache-dir
+RUN pip3 install -r ./requirements.txt --no-cache-dir
 
 COPY . .
 
